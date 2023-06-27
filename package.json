@@ -22,9 +22,5 @@
     },
     "publishConfig": {
         "access": "public"
-    },
-    "peerDependencies": {
-        "presetter-preset-rollup": "^4.0.1",
-        "presetter-preset-strict": "^4.0.1"
     }
 }
