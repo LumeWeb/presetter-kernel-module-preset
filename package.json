@@ -18,7 +18,8 @@
         "semantic-release": "semantic-release"
     },
     "dependencies": {
-        "presetter-preset-rollup": "^4.0.1"
+        "presetter-preset-rollup": "^4.0.1",
+        "presetter-preset-strict": "^4.0.1"
     },
     "publishConfig": {
         "access": "public"
