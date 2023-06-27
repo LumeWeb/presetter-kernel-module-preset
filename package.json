@@ -1,0 +1,23 @@
+{
+    "name": "@lumeweb/presetter-kernel-module-preset",
+    "version": "0.1.0",
+    "type": "module",
+    "main": "lib/index.js",
+    "devDependencies": {
+        "@lumeweb/node-library-preset": "^0.2.5",
+        "presetter": "*"
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "@lumeweb/presetter-kernel-module-preset@0.1.0",
+    "scripts": {
+        "prepare": "presetter bootstrap",
+        "build": "run build",
+        "semantic-release": "semantic-release"
+    },
+    "dependencies": {
+        "presetter-preset-rollup": "^4.0.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
