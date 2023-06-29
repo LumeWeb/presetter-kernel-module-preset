@@ -16,6 +16,18 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     supplementaryConfig: {
       rollup: {
         output: { file: "{output}/index.js", format: "cjs", sourcemap: true },
+        plugins: {
+          "@apply @rollup/plugin-json[default]": {},
+          "@apply rollup-plugin-ts[default]": {},
+          "@apply rollup-plugin-tsconfig-paths[default]": {},
+          "@apply @rollup/plugin-node-resolve[default]": {},
+          "@apply @rollup/plugin-commonjs[default]": {
+            extensions: [".js", ".jsx", ".ts", ".tsx"],
+          },
+          "@apply @rollup/plugin-wasm[default]": {
+            targetEnv: "auto-inline",
+          },
+        },
       },
     },
   };
