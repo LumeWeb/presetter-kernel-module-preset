@@ -1,3 +1,15 @@
+# [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-06-27)
+
+
+### Bug Fixes
+
+* add presetter-preset-strict as dep ([7d6eb89](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/7d6eb8964ed336ba143cd5f7892df41ae2061d3a))
+
+
+### Reverts
+
+* Revert "fix: add presetter-preset-rollup and presetter-preset-strict as peer deps" ([c6b4c4e](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/c6b4c4e2d739b7ec69bb6943db936d9caeea362d))
+
 # [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-06-27)
 
 
