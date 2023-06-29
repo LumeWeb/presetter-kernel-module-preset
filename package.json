@@ -8,7 +8,6 @@
         "url": "gitea@git.lumeweb.com:LumeWeb/presetter-kernel-module-preset.git"
     },
     "devDependencies": {
-        "@lumeweb/node-library-preset": "^0.2.5",
         "presetter": "*"
     },
     "readme": "ERROR: No README data found!",
@@ -18,8 +17,8 @@
         "semantic-release": "semantic-release"
     },
     "dependencies": {
-        "presetter-preset-rollup": "^4.0.1",
-        "presetter-preset-strict": "^4.0.1"
+        "@lumeweb/node-library-preset": "0.2.7",
+        "presetter-preset-rollup": "^4.0.1"
     },
     "publishConfig": {
         "access": "public"
