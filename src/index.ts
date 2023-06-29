@@ -13,5 +13,10 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
   return {
     extends: ["presetter-preset-rollup", "@lumeweb/node-library-preset"],
     supplementaryIgnores: ignores,
+    supplementaryConfig: {
+      rollup: {
+        output: { file: "{output}/index.js", format: "cjs", sourcemap: true },
+      },
+    },
   };
 }
