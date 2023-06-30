@@ -1,15 +1,15 @@
 {
     "name": "@lumeweb/presetter-kernel-module-preset",
-    "version": "0.1.0-develop.7",
+    "version": "0.1.0-develop.8",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@lumeweb/presetter-kernel-module-preset",
-            "version": "0.1.0-develop.7",
+            "version": "0.1.0-develop.8",
             "dependencies": {
                 "@lumeweb/node-library-preset": "0.2.7",
-                "@lumeweb/presetter-preset-rollup": "^4.0.2-develop.1",
+                "@lumeweb/presetter-preset-rollup": "^4.0.2-develop.2",
                 "@rollup/plugin-typescript": "^11.1.2",
                 "@rollup/plugin-wasm": "^6.1.3"
             },
@@ -1676,9 +1676,9 @@
             }
         },
         "node_modules/@lumeweb/presetter-preset-rollup": {
-            "version": "4.0.2-develop.1",
-            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-preset-rollup/-/presetter-preset-rollup-4.0.2-develop.1.tgz",
-            "integrity": "sha512-GQmVaUu/X3t9qTiaxsfEOJtanOCknF+qWyoCKNq9tbSNdhoQ//cN9tJ8smPJpsHs6oBLw+JZKON9ARdOozxRhw==",
+            "version": "4.0.2-develop.2",
+            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-preset-rollup/-/presetter-preset-rollup-4.0.2-develop.2.tgz",
+            "integrity": "sha512-WI9mcU0B1xcp4JV5WpyUaoApQMSwRzTtAElR+Wd5AoB71DZdK9Nkf2NpIcCz4h2Ws3YZlWPx3Xj8SSldnvO8ZA==",
             "dependencies": {
                 "presetter-types": "^4.0.1",
                 "type-fest": "^3.12.0"
