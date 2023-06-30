@@ -1,3 +1,10 @@
+# [0.1.0-develop.12](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.11...v0.1.0-develop.12) (2023-06-30)
+
+
+### Bug Fixes
+
+* re-order extends ([b6f8e36](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/b6f8e3683621cca1fad3158ddd706896a162337b))
+
 # [0.1.0-develop.11](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.10...v0.1.0-develop.11) (2023-06-30)
 
 # [0.1.0-develop.10](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.9...v0.1.0-develop.10) (2023-06-30)
