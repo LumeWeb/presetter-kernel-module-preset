@@ -22,10 +22,12 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     supplementaryConfig: {
       rollup: {
         plugins: [
-          "@apply @rollup/plugin-wasm[default]",
-          {
-            targetEnv: "auto-inline",
-          },
+          [
+            "@apply @rollup/plugin-wasm[default]",
+            {
+              targetEnv: "auto-inline",
+            },
+          ],
         ],
       },
     },
