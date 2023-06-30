@@ -32,7 +32,7 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
       },
       release: {
         plugins: {
-          "3": ["@semantic-release/npm", { publish: false }],
+          "3": ["@semantic-release/npm", { npmPublish: false }],
         },
       },
     },
