@@ -15,8 +15,8 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
 
   return {
     extends: [
-      "@lumeweb/node-library-preset",
       "@lumeweb/presetter-preset-rollup",
+      "@lumeweb/node-library-preset",
     ],
     supplementaryIgnores: ignores,
     supplementaryConfig: {
