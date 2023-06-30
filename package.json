@@ -18,7 +18,7 @@
     },
     "dependencies": {
         "@lumeweb/node-library-preset": "0.2.7",
-        "@lumeweb/presetter-preset-rollup": "^4.0.2-develop.1",
+        "@lumeweb/presetter-preset-rollup": "^4.0.2-develop.2",
         "@rollup/plugin-typescript": "^11.1.2",
         "@rollup/plugin-wasm": "^6.1.3"
     },
