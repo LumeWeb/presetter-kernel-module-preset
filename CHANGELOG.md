@@ -1,3 +1,10 @@
+# [0.1.0-develop.10](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.9...v0.1.0-develop.10) (2023-06-30)
+
+
+### Bug Fixes
+
+* fix plugins list ([21b414b](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/21b414b25bd3988975ab32963be64ffbd3d2a5fc))
+
 # [0.1.0-develop.9](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.8...v0.1.0-develop.9) (2023-06-30)
 
 # [0.1.0-develop.8](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.7...v0.1.0-develop.8) (2023-06-30)
