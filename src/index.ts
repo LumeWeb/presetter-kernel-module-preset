@@ -1,5 +1,8 @@
 import type { PresetAsset } from "presetter-types";
 import { PresetContext } from "presetter-types";
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
 
 /**
  * get the list of templates provided by this preset
@@ -11,23 +14,19 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     : [];
 
   return {
-    extends: ["presetter-preset-rollup", "@lumeweb/node-library-preset"],
+    extends: [
+      "@lumeweb/node-library-preset",
+      "@lumeweb/presetter-preset-rollup",
+    ],
     supplementaryIgnores: ignores,
     supplementaryConfig: {
       rollup: {
-        output: { file: "{output}/index.js", format: "cjs", sourcemap: true },
-        plugins: {
-          "@apply @rollup/plugin-json[default]": {},
-          "@apply rollup-plugin-ts[default]": {},
-          "@apply rollup-plugin-tsconfig-paths[default]": {},
-          "@apply @rollup/plugin-node-resolve[default]": {},
-          "@apply @rollup/plugin-commonjs[default]": {
-            extensions: [".js", ".jsx", ".ts", ".tsx"],
-          },
-          "@apply @rollup/plugin-wasm[default]": {
+        plugins: [
+          "@apply @rollup/plugin-wasm[default]",
+          {
             targetEnv: "auto-inline",
           },
-        },
+        ],
       },
     },
   };
