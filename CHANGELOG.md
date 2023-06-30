@@ -1,3 +1,10 @@
+# [0.1.0-develop.15](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.14...v0.1.0-develop.15) (2023-06-30)
+
+
+### Reverts
+
+* Revert "fix: re-order extends" ([dab120c](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/dab120cd2f6928732370a3b23e833a8a1ca06e63))
+
 # [0.1.0-develop.14](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.13...v0.1.0-develop.14) (2023-06-30)
 
 # [0.1.0-develop.13](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.12...v0.1.0-develop.13) (2023-06-30)
