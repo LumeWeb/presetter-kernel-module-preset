@@ -1,3 +1,10 @@
+# [0.1.0-develop.23](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.22...v0.1.0-develop.23) (2023-07-02)
+
+
+### Bug Fixes
+
+* ensure plugin-node-resolve uses browser mode ([3b6fec0](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/3b6fec053f4c0d69426c3fde8eb680ea4edc4a50))
+
 # [0.1.0-develop.22](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.21...v0.1.0-develop.22) (2023-07-02)
 
 
