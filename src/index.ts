@@ -21,6 +21,11 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     supplementaryIgnores: ignores,
     supplementaryConfig: {
       rollup: {
+        output: {
+          "0": {
+            inlineDynamicImports: true,
+          },
+        },
         plugins: [
           [
             "@apply @rollup/plugin-wasm[default]",
