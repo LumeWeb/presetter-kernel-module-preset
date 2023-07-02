@@ -1,8 +1,5 @@
 import type { PresetAsset } from "presetter-types";
 import { PresetContext } from "presetter-types";
-import { createRequire } from "node:module";
-
-const require = createRequire(import.meta.url);
 
 /**
  * get the list of templates provided by this preset
@@ -20,25 +17,8 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     ],
     supplementaryIgnores: ignores,
     supplementaryConfig: {
-      rollup: {
-        output: {
-          "0": {
-            inlineDynamicImports: true,
-          },
-          "1": {
-            browser: true,
-            preferBuiltins: false,
-          },
-        },
-        plugins: [
-          [
-            "@apply @rollup/plugin-wasm[default]",
-            {
-              targetEnv: "auto-inline",
-            },
-          ],
-        ],
-      },
+      // @ts-ignore
+      browser: true,
       release: {
         plugins: {
           "3": ["@semantic-release/npm", { npmPublish: false }],
