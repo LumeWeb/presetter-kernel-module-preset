@@ -1,3 +1,10 @@
+# [0.1.0-develop.24](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.23...v0.1.0-develop.24) (2023-07-02)
+
+
+### Bug Fixes
+
+* pass browser to supplementaryConfig ([398bee7](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/398bee7e03284720e62f3550e1ff72d67ab12c0d))
+
 # [0.1.0-develop.23](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.22...v0.1.0-develop.23) (2023-07-02)
 
 
