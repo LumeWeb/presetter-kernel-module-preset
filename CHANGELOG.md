@@ -1,3 +1,10 @@
+# [0.1.0-develop.22](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.21...v0.1.0-develop.22) (2023-07-02)
+
+
+### Bug Fixes
+
+* set inlineDynamicImports to true ([a58775a](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/a58775aefdd1b7ba5c06b01ee919e3f7ac9f1f90))
+
 # [0.1.0-develop.21](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.20...v0.1.0-develop.21) (2023-07-02)
 
 # [0.1.0-develop.20](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.19...v0.1.0-develop.20) (2023-06-30)
