@@ -1,3 +1,10 @@
+# [0.1.0-develop.20](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.19...v0.1.0-develop.20) (2023-06-30)
+
+
+### Bug Fixes
+
+* publish needs to be npmPublish ([a2f2ee9](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/a2f2ee991367c5f0c27b143f01bc15ebd365d7d6))
+
 # [0.1.0-develop.19](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.18...v0.1.0-develop.19) (2023-06-30)
 
 
