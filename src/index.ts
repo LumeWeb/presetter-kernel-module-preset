@@ -25,6 +25,10 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
           "0": {
             inlineDynamicImports: true,
           },
+          "1": {
+            browser: true,
+            preferBuiltins: false,
+          },
         },
         plugins: [
           [
