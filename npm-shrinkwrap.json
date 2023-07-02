@@ -9,7 +9,7 @@
             "version": "0.1.0-develop.26",
             "dependencies": {
                 "@lumeweb/node-library-preset": "0.2.7",
-                "@lumeweb/presetter-preset-rollup": "4.1.0-develop.4"
+                "@lumeweb/presetter-preset-rollup": "4.1.0-develop.5"
             },
             "devDependencies": {
                 "presetter": "*"
@@ -1673,9 +1673,9 @@
             }
         },
         "node_modules/@lumeweb/presetter-preset-rollup": {
-            "version": "4.1.0-develop.4",
-            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-preset-rollup/-/presetter-preset-rollup-4.1.0-develop.4.tgz",
-            "integrity": "sha512-XrnmruUMKlTx7Gee07WjWEdG+CSEbho1ERHupMPXZMvtrvXaqIpLLF/yrLOqVBdwnfTLG1FB+pZdhSJZo36eCw==",
+            "version": "4.1.0-develop.5",
+            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-preset-rollup/-/presetter-preset-rollup-4.1.0-develop.5.tgz",
+            "integrity": "sha512-fMu4ZzPnmbnJMp44+4zpCZXsTp2GBemekKDeQC100BUegO1+SISeKXLhvzYXU7bYJWQdqbc1p99myR9VZWTiPQ==",
             "dependencies": {
                 "@rollup/plugin-commonjs": "^25.0.0",
                 "@rollup/plugin-graphql": "^2.0.0",
@@ -1686,6 +1686,7 @@
                 "@rollup/plugin-yaml": "^4.0.0",
                 "presetter-preset-strict": "^4.0.1",
                 "presetter-types": "^4.0.1",
+                "rollup": "^3.0.0",
                 "rollup-plugin-postcss": "^4.0.0",
                 "rollup-plugin-visualizer": "^5.0.0",
                 "type-fest": "^3.12.0"
@@ -7051,7 +7052,6 @@
             "os": [
                 "darwin"
             ],
-            "peer": true,
             "engines": {
                 "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
             }
@@ -16308,8 +16308,6 @@
             "version": "3.25.3",
             "resolved": "https://registry.npmjs.org/rollup/-/rollup-3.25.3.tgz",
             "integrity": "sha512-ZT279hx8gszBj9uy5FfhoG4bZx8c+0A1sbqtr7Q3KNWIizpTdDEPZbV2xcbvHsnFp4MavCQYZyzApJ+virB8Yw==",
-            "optional": true,
-            "peer": true,
             "bin": {
                 "rollup": "dist/bin/rollup"
             },
