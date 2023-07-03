@@ -26,18 +26,15 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
       },
       rollup: {
         plugins: {
-          "1": [
-            "@apply @rollup/plugin-node-resolve[default]",
-            [
-              {
-                dedupe: [
-                  "@lumeweb/libkernel",
-                  "@lumeweb/libweb",
-                  "@lumeweb/libportal",
-                ],
-              },
-            ],
-          ],
+          "1": {
+            "1": {
+              dedupe: [
+                "@lumeweb/libkernel",
+                "@lumeweb/libweb",
+                "@lumeweb/libportal",
+              ],
+            },
+          },
         },
       },
     },
