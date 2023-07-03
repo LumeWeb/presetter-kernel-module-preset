@@ -1,3 +1,10 @@
+# [0.1.0-develop.29](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.28...v0.1.0-develop.29) (2023-07-03)
+
+
+### Bug Fixes
+
+* add libkernel, libweb, and libportal to node resolve de-dup explicitly to prevent import problems ([0fb8d6c](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/0fb8d6c73b0567af8856ff2b7f196a57001c5071))
+
 # [0.1.0-develop.28](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.27...v0.1.0-develop.28) (2023-07-02)
 
 # [0.1.0-develop.27](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.26...v0.1.0-develop.27) (2023-07-02)
