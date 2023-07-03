@@ -17,8 +17,6 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     ],
     supplementaryIgnores: ignores,
     supplementaryConfig: {
-      // @ts-ignore
-      browser: true,
       release: {
         plugins: {
           "3": ["@semantic-release/npm", { npmPublish: false }],
