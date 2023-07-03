@@ -24,6 +24,22 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
           "3": ["@semantic-release/npm", { npmPublish: false }],
         },
       },
+      rollup: {
+        plugins: {
+          "1": [
+            "@apply @rollup/plugin-node-resolve[default]",
+            [
+              {
+                dedupe: [
+                  "@lumeweb/libkernel",
+                  "@lumeweb/libweb",
+                  "@lumeweb/libportal",
+                ],
+              },
+            ],
+          ],
+        },
+      },
     },
   };
 }
