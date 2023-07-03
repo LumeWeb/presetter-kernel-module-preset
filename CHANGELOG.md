@@ -1,3 +1,11 @@
+# [0.1.0-develop.30](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.29...v0.1.0-develop.30) (2023-07-03)
+
+
+### Bug Fixes
+
+* change node-resolve config to assume it is an object entry since we rewrite it in the rollup plugin in browser mode ([398be8f](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/398be8fede84167282c3252ab24e6149bf095f32))
+* passing browser mode does not work here ([40580f7](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/40580f793f7c4b94f37cf62961bd062b4bb24c55))
+
 # [0.1.0-develop.29](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.28...v0.1.0-develop.29) (2023-07-03)
 
 
