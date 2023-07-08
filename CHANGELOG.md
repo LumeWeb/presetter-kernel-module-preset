@@ -1,3 +1,10 @@
+# [0.1.0-develop.32](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.31...v0.1.0-develop.32) (2023-07-08)
+
+
+### Bug Fixes
+
+* add templates to npm, and move out of src ([edbcf1c](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/edbcf1ce32269b22877f94899e19fdfc3db060db))
+
 # [0.1.0-develop.31](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.30...v0.1.0-develop.31) (2023-07-08)
 
 
