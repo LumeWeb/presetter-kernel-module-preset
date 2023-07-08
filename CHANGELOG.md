@@ -1,3 +1,10 @@
+# [0.1.0-develop.31](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.30...v0.1.0-develop.31) (2023-07-08)
+
+
+### Bug Fixes
+
+* add default polyfill config ([f6ba49c](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/f6ba49c45f8516779a15f89b11207081c913c44d))
+
 # [0.1.0-develop.30](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.29...v0.1.0-develop.30) (2023-07-03)
 
 
