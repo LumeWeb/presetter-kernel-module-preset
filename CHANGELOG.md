@@ -1,3 +1,10 @@
+# [0.1.0-develop.34](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.33...v0.1.0-develop.34) (2023-07-08)
+
+
+### Bug Fixes
+
+* override tsconfig.build ([2883344](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/28833448f29e7cbde5cbea3e241ff669134530a8))
+
 # [0.1.0-develop.33](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.32...v0.1.0-develop.33) (2023-07-08)
 
 
