@@ -1,3 +1,10 @@
+# [0.1.0-develop.39](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.38...v0.1.0-develop.39) (2023-07-08)
+
+
+### Bug Fixes
+
+* add buffer as a dep and ensure it is pinned ([f4e12d7](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/f4e12d7695e9fe792014092aed1e39a5adfeadac))
+
 # [0.1.0-develop.38](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.37...v0.1.0-develop.38) (2023-07-08)
 
 
