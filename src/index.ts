@@ -87,7 +87,14 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
         },
         resolve: {},
         optimize: {},
-        polyfill: {},
+        polyfill: {
+          exclude: ["fs"],
+          globals: {
+            Buffer: true,
+            global: true,
+            process: true,
+          },
+        },
       },
     },
     scripts: resolve(TEMPLATES, "scripts.yaml"),
