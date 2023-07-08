@@ -68,12 +68,12 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     },
     supplementaryIgnores: ignores,
     supplementaryConfig: {
-      release: {
+      "release": {
         plugins: {
           "3": ["@semantic-release/npm", { npmPublish: false }],
         },
       },
-      vite: {
+      "vite": {
         build: {
           outDir: "{output}",
           lib: {
@@ -94,6 +94,12 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
             global: true,
             process: true,
           },
+        },
+      },
+      "tsconfig.build": {
+        include: ["{buildSource}"],
+        compilerOptions: {
+          outDir: "{source}",
         },
       },
     },
