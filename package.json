@@ -1,6 +1,6 @@
 {
     "name": "@lumeweb/presetter-kernel-module-preset",
-    "version": "0.1.0-develop.32",
+    "version": "0.1.0-develop.33",
     "type": "module",
     "main": "lib/index.js",
     "repository": {

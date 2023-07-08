@@ -1,3 +1,10 @@
+# [0.1.0-develop.33](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.32...v0.1.0-develop.33) (2023-07-08)
+
+
+### Bug Fixes
+
+* path import not needed ([81b9332](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/81b9332cacdc57dedfcd6defcf67c2aa0b60b76f))
+
 # [0.1.0-develop.32](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.31...v0.1.0-develop.32) (2023-07-08)
 
 
