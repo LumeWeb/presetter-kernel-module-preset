@@ -85,7 +85,13 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
           },
           minify: false,
         },
-        resolve: {},
+        resolve: {
+          dedupe: [
+            "@lumeweb/libportal",
+            "@lumeweb/libweb",
+            "@lumeweb/libkernel",
+          ],
+        },
         optimize: {
           "node-fetch": "export default undefined;",
         },
