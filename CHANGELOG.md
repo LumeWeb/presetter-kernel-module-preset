@@ -1,3 +1,10 @@
+# [0.1.0-develop.38](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.37...v0.1.0-develop.38) (2023-07-08)
+
+
+### Bug Fixes
+
+* always dedupe primary sdk libraries ([4e9c506](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/4e9c506490744f9047d183dc7cad144fe6612a44))
+
 # [0.1.0-develop.37](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.36...v0.1.0-develop.37) (2023-07-08)
 
 
