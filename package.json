@@ -7,9 +7,6 @@
         "type": "git",
         "url": "gitea@git.lumeweb.com:LumeWeb/presetter-kernel-module-preset.git"
     },
-    "devDependencies": {
-        "presetter": "*"
-    },
     "readme": "ERROR: No README data found!",
     "scripts": {
         "prepare": "presetter bootstrap",
@@ -18,7 +15,10 @@
     },
     "dependencies": {
         "@lumeweb/node-library-preset": "0.2.7",
-        "@lumeweb/presetter-preset-rollup": "4.1.0-develop.5"
+        "presetter": "^4.0.1",
+        "vite": "^4.4.2",
+        "vite-plugin-node-polyfills": "^0.9.0",
+        "vite-plugin-optimizer": "^1.4.2"
     },
     "publishConfig": {
         "access": "public"
