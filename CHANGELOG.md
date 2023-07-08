@@ -1,3 +1,10 @@
+# [0.1.0-develop.35](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.34...v0.1.0-develop.35) (2023-07-08)
+
+
+### Features
+
+* add wasm plugin ([5a72c3c](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/5a72c3c946e6ab1a53a0d1f7c3681dc3d8054de3))
+
 # [0.1.0-develop.34](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.33...v0.1.0-develop.34) (2023-07-08)
 
 
