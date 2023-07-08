@@ -86,7 +86,9 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
           minify: false,
         },
         resolve: {},
-        optimize: {},
+        optimize: {
+          "node-fetch": "export default undefined;",
+        },
         polyfill: {
           exclude: ["fs"],
           globals: {
