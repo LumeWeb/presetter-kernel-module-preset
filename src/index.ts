@@ -65,6 +65,7 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
         return template(content, variable);
         /* eslint-enable @typescript-eslint/naming-convention */
       },
+      ".prettierignore": resolve(TEMPLATES, "prettierignore"),
     },
     supplementaryIgnores: ignores,
     supplementaryConfig: {
