@@ -1,3 +1,10 @@
+# [0.1.0-develop.41](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.40...v0.1.0-develop.41) (2023-07-11)
+
+
+### Bug Fixes
+
+* update node-fetch dummy export to include Response, FormData and Blob ([a53e888](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/a53e8885b4fa04bdd1ab2053433b5b15dbc57076))
+
 # [0.1.0-develop.40](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.39...v0.1.0-develop.40) (2023-07-09)
 
 
