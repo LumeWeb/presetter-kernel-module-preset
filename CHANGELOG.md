@@ -1,3 +1,10 @@
+# [0.1.0-develop.40](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.39...v0.1.0-develop.40) (2023-07-09)
+
+
+### Features
+
+* add .prettierignore template ([c73dff7](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/c73dff73267f39ca4624283bdb10c8718c0082cc))
+
 # [0.1.0-develop.39](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.38...v0.1.0-develop.39) (2023-07-08)
 
 
