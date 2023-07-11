@@ -94,7 +94,8 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
           ],
         },
         optimize: {
-          "node-fetch": "export default undefined;",
+          "node-fetch":
+            "const e = undefined; export default e;export {e as Response, e as FormData, e as Blob};",
         },
         polyfill: {
           exclude: ["fs"],
