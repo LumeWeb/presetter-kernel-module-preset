@@ -85,6 +85,11 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
             fileName: "index",
           },
           minify: false,
+          rollupOptions: {
+            output: {
+              inlineDynamicImports: true,
+            },
+          },
         },
         resolve: {
           dedupe: [
