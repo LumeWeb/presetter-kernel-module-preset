@@ -1,12 +1,12 @@
 {
     "name": "@lumeweb/presetter-kernel-module-preset",
-    "version": "0.1.0-develop.41",
+    "version": "0.1.0-develop.42",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@lumeweb/presetter-kernel-module-preset",
-            "version": "0.1.0-develop.41",
+            "version": "0.1.0-develop.42",
             "dependencies": {
                 "@lumeweb/node-library-preset": "0.2.7",
                 "buffer": "^6.0.3",
