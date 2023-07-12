@@ -120,5 +120,6 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
     },
     scripts: resolve(TEMPLATES, "scripts.yaml"),
     variable: DEFAULT_VARIABLE,
+    noSymlinks: ["vite.config.js"],
   };
 }
