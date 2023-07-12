@@ -1,3 +1,10 @@
+# [0.1.0-develop.43](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.42...v0.1.0-develop.43) (2023-07-12)
+
+
+### Bug Fixes
+
+* dont symlink vite.config.js ([850a235](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/850a2351b5f0d4dfd5ca700d0a9a36c64883f766))
+
 # [0.1.0-develop.42](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.41...v0.1.0-develop.42) (2023-07-11)
 
 
