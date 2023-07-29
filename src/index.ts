@@ -77,6 +77,9 @@ export default async function (context: PresetContext): Promise<PresetAsset> {
         },
       },
       "vite": {
+        define: {
+          "window.": "globalThis.",
+        },
         build: {
           outDir: "{output}",
           lib: {
