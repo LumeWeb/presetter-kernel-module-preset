@@ -1,3 +1,15 @@
+# [0.1.0-develop.44](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.43...v0.1.0-develop.44) (2023-07-29)
+
+
+### Bug Fixes
+
+* add define alias for window to globalThis ([a6251ae](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/a6251ae4ea74498cf7709d31c64e9214831609af))
+
+
+### Features
+
+* add support for vite define ([ae2b679](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/commit/ae2b6797008d3defdfac6d1e5444cd9df0f68aa2))
+
 # [0.1.0-develop.43](https://git.lumeweb.com/LumeWeb/presetter-kernel-module-preset/compare/v0.1.0-develop.42...v0.1.0-develop.43) (2023-07-12)
 
 
