@@ -32,12 +32,14 @@ function buildOptions(context: PresetContext) {
     throw new Error("vite options missing!");
   }
 
+  const define = opts.define;
   const build = opts.build;
   const resolve = opts.resolve;
   const optimize = opts.optimize;
   const polyfill = opts.polyfill;
 
   return {
+    viteDefine: resolveDirective(define, context).stringifiedConfig,
     viteBuild: resolveDirective(build, context).stringifiedConfig,
     viteResolve: resolveDirective(resolve, context).stringifiedConfig,
     viteOptimize: resolveDirective(optimize, context).stringifiedConfig,
